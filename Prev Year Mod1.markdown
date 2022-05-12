@@ -352,3 +352,31 @@ description list: — used to display name/value pairs such as terms and definit
 </dl>
 
 ---
+
+#14. Briefly explain the history of markup languages.
+
+---
+
+#15. Write a note on XHTML and HTML5.
+HTML5:
+The term HTML5 refers to a set of modern web technologies.
+HTML5 was the successor to previous HTML versions and introduced new elements and capabilities to the language on top of the previous version.
+
+The main aims of HTML5 are:
+Specify unambiguously how browsers should deal with invalid markup.
+
+Provide an open, non-proprietary programming framework (via JavaScript) for
+creating rich web applications.
+
+Be backwards compatible with the existing web.
+
+• All major browser manufacturers have at least partially embraced HTML5.
+
+XHTML:
+XHTML is a term that was historically used to describe HTML documents written to conform with XML syntax rules.
+
+XML is a markup language where all documents must be marked up correctly (be "well-formed").
+
+XHTML was developed to make HTML more extensible and flexible to work with other data formats (such as XML). In addition, browsers ignore errors in HTML pages, and try to display the website even if it has some errors in the markup. So XHTML comes with a much stricter error handling.
+
+---
