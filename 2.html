@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <style>
+      td {
+        border-left: 2px solid;
+        border-right: 2px solid;
+      }
+    </style>
+  </head>
+  <body>
+    <table style="border-style: dashed">
+      <tr>
+        <th
+          style="
+            border-bottom: 2px solid;
+            border-right: 2px solid;
+            border-left: 2px solid;
+          "
+        >
+          Books
+        </th>
+        <th
+          colspan="2"
+          style="border-bottom: 2px solid; border-left: 2px solid"
+        >
+          Authors
+        </th>
+      </tr>
+      <tr>
+        <td rowspan="2">WebDev</td>
+        <td style="border-bottom: 2px solid">3</td>
+        <td style="border-bottom: 2px solid">6</td>
+      </tr>
+      <tr>
+        <!-- <td style="border-bottom: 2px solid"></td> -->
+        <td style="border-bottom: 2px solid">Name1</td>
+        <td style="border-bottom: 2px solid">Name2</td>
+      </tr>
+    </table>
+  </body>
+</html>
